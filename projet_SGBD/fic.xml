@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<racine>
+	<entite>
+		<client>
+			<nom>wade</nom>
+			<prenom>diary</prenom>
+			<adresse_livraison>zac mbao</adresse_livraison>
+		</client>
+
+		<produit>
+			<nom_produit>lait</nom_produit>
+			<id_produit>lait123</id_produit>
+			<quantité>deux_litres</quantité>
+		</produit>
+
+	</entite>
+
+	<association>
+		<commander></commander>
+	</association>
+</racine>
+
