@@ -43,6 +43,11 @@ int validationJson (FILE * filenameJson)
 	        fprintf(stderr, "JSON_checker_end: ERREUR SYNTAXIQUE \n");
 	       exit(1);
 	 	}
+	    else 
+	    	{
+	    	 printf(" correct\n");
+	    	 return 0;
+	    	} 
 
 	 	fclose(filenameJson);
  	}

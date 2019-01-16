@@ -215,7 +215,7 @@ void svg_ellipse(svg* psvg, int cx, int cy, int rx, int ry, char* fill, char* st
     appendstringtosvg(psvg, "' />\n");
 }
 
-void createEntite(svg* psvg, char *entity, int width,int height,int x,int y){
+/*void createEntite(svg* psvg, char *entity, int width,int height,int x,int y){
     svg_rectangle(psvg,width,height,x,y, "#00FFFF", "#000000", 2, 8, 8);
     svg_line(psvg, "#000000", 2, x, y+80, x+width, y+80);
     svg_text(psvg, x+10, y+40, "#FF0000", 25, "#FF0000", "#000000", entity);
@@ -223,4 +223,4 @@ void createEntite(svg* psvg, char *entity, int width,int height,int x,int y){
 
 void createAttribute(svg* psvg, char* attribut, int width,int height,int x,int y){
     svg_text(psvg, x+10, y+110, "#FF0000", 25, "#FF0000", "#000000", attribut);
-}
+}*/

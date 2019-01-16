@@ -1,9 +1,31 @@
-<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
-
-<repertoire>
-
-  <personne>Bernard</personne>
-
-  <personne>Patrick</personne>
-
-</repertoire>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Modele_Entite_Association>
+	<Entite>
+		<Commercant>
+			<NINEA></NINEA>
+			<Nom></Nom>
+			<Prenom></Prenom>
+			<Age>Age</Age>
+		</Commercant>
+		<Client>
+			<NumClient></NumClient>
+			<adresse></adresse>
+			<NomClient></NomClient>
+		</Client>
+		<Fournisseur>
+			<NomFourniss></NomFourniss>
+			<Nom></Nom>
+			<Prenom></Prenom>
+		</Fournisseur>
+	</Entite>
+	<Association>
+		<commande>
+			<Commercant></Commercant>
+			<Fournisseur></Fournisseur>
+		</commande>
+		<Achete>
+			<Client></Client>
+			<Commercant></Commercant>
+		</Achete>
+	</Association>
+</Modele_Entite_Association>

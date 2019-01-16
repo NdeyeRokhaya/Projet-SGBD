@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <libxml/parser.h>
 
- int exctractionXml(char const * monFichierXml)
+ int extractionXml(char const * monFichierXml)
  {
     xmlDocPtr docxml;
     xmlNodePtr racine; 

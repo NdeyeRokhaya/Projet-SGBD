@@ -1,27 +1,39 @@
 
 {
-  "test":"ds",
-  "test2":"gdsjh",
-  "sd":{
-    "jfd":"sfd"
-  },
-  "sdsd":{
-    "jfd":"sfd"
-  },
-  "ecole":
-    {
-      "nom":"ESP",
-      "adresse":{
-        "altitude":14,
-        "longitude":-17
+  
+  "fournisseur":
+  {
+      "idfour": "four11",
+      "nom":"CCBM",
+      "commercant":
+      {
+        "ninea": "2018rst",
+        "nom": "DIOP"
       },
-        "Directeur":{
-          "cni":"1256199405286",
-          "nom":"Fall",
-          "prenom":"Alioune",
-          "Age":25,
-          "Sexe":"M",
-          "adresse":"Gueule Tapée"
+      "client":
+      {
+        "idClient": 18,
+        "prenom": "Diary",
+        "nom": "WADE"
+      },
+      "produit":
+      [
+        {
+          "numProd": "201607prod",
+          
+          "nom": "Ordinateur"
+        },
+        {
+          "numProd": "2018prod",
+         
+          "nom": "Television"
+        },
+        {
+          "numProd": "2019Prod",
+         
+          "nom": "Radio"
         }
+
+      ]
     }
 }
