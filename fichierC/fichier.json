@@ -1,0 +1,39 @@
+
+{
+  
+  "fournisseur":
+  {
+      "idfour": "four11",
+      "nom":"CCBM",
+      "commercant":
+      {
+        "ninea": "2018rst",
+        "nom": "DIOP"
+      },
+      "client":
+      {
+        "idClient": 18,
+        "prenom": "Diary",
+        "nom": "WADE"
+      },
+      "produit":
+      [
+        {
+          "numProd": "201607prod",
+          
+          "nom": "Ordinateur"
+        },
+        {
+          "numProd": "2018prod",
+         
+          "nom": "Television"
+        },
+        {
+          "numProd": "2019Prod",
+         
+          "nom": "Radio"
+        }
+
+      ]
+    }
+}

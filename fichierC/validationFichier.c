@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<libxml/parser.h>//Librairie xml
-#include"JSON_checker.h"
-#include"validationFichier.h"
+#include"JSON_checker.c"
+
  //Validation du fichier XML
 int validationXml (char const *filenameXml)
 {
@@ -16,7 +16,7 @@ int validationXml (char const *filenameXml)
 
 	xmlFreeDoc(docXml);
 
-	return EXIT_SUCCESS;
+	return 1;
 }
  //Validation du fichier JSON
 int validationJson (FILE * filenameJson)
@@ -43,6 +43,11 @@ int validationJson (FILE * filenameJson)
 	        fprintf(stderr, "JSON_checker_end: ERREUR SYNTAXIQUE \n");
 	       exit(1);
 	 	}
+	    else 
+	    	{
+	    	 printf(" correct\n");
+	    	 return 0;
+	    	} 
 
 	 	fclose(filenameJson);
  	}
